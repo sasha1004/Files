@@ -1,0 +1,897 @@
+/*Результаты поиска. 2 этап*/
+@media screen and (max-width: 991px) {
+	table.globalResult td.resultBrandNumber .star {
+		margin-left: -17px;
+	}
+
+	table.globalResult {
+		border: 0;
+		width: 100%;
+		display: table !important;
+		margin-top: -20px;
+	}
+
+	table.globalResult thead {
+		display: none;
+	}
+
+	table.globalResult tbody tr {
+		display: block;
+		height: auto;
+	}
+
+	table.globalResult{
+		font-size : 0;
+	}
+
+	table.globalResult tbody tr.resultTr2,
+	table.globalResult tbody tr.resultTr2Route{
+		border: 1px solid #e8e8e8;
+		position: relative;
+		display: -webkit-inline-flex;
+		display: -ms-inline-flexbox;
+		display: inline-flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		vertical-align: top;
+		width: 47.5%;
+		margin: 25px 0 0 1.5%;
+		font-size: 13px;
+	}
+
+	table.globalResult tbody tr.resultTr2[data-use-route-color="1"],
+	table.globalResult tbody tr.resultTr2[data-use-route-color="2"],
+	table.globalResult tbody tr.resultTr2Route.resultTr2GroupFirst[data-use-route-color="1"],
+	table.globalResult tbody tr.resultTr2Route.resultTr2GroupFirst[data-use-route-color="2"] {
+		background-repeat: no-repeat;
+		background-position: top;
+		background-image: linear-gradient(to bottom, #fff, #fff);
+		background-size: 100% 52px;
+	}
+
+	table.globalResult tbody tr.resultTr2Group,
+	table.globalResult tbody tr.resultTr2GroupFirst{
+		/*display: block;*/
+		width: 97%;
+		margin-right: 2.5%;
+	}
+
+	table.globalResult tbody tr.resultTr2Group:not(.resultTr2GroupFirstFilter) {
+		margin-top: 0 !important;
+		border-top: 5px solid #c0c0c0;
+	}
+
+	table.globalResult tbody tr td {
+		display: block;
+		text-align: right !important;
+		font-size: 13px;
+		padding: 5px;
+		border: none;
+		border-bottom: 1px solid #e8e8e8;
+		border-left: none !important;
+		min-height: 12px;
+		width: 100%;
+	}
+
+	table.globalResult tbody tr td.resultProbability {
+		width: 100%;
+	}
+
+	table.globalResult tbody tr td.resultInline,
+	table.globalResult tbody tr td.resultTitleMain,
+	table.globalResult tbody tr td.resultTitle{
+		width: auto;
+	}
+
+	table.globalResult tbody tr td.resultHidden{
+		display: none;
+	}
+
+	table.globalResult tbody tr.fullResultTr td.resultHidden{
+		display: block;
+	}
+
+	table.globalResult tbody tr td a{
+		font-size: 13px;
+	}
+
+	table.globalResult tbody tr td.resultInline,
+	table.globalResult tbody tr td.resultPrice{
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		border-bottom: none !important;
+		text-align: left !important;
+		padding-right: 0 !important;
+	}
+
+	table.globalResult tbody tr td.resultPrice,
+	table.globalResult tbody tr td.resultOrder {
+		background: transparent !important;
+	}
+
+	table.globalResult tbody tr .articleButtons{
+		width: 140px;
+	}
+
+	table.globalResult tbody tr .articleButtons div.counter input.quantityInput[type="text"]{
+		height: 28px;
+		width: 30px;
+		font-size: 15px;
+	}
+
+	table.globalResult tbody tr .articleButtons div.counter input[type="button"]{
+		opacity: 1;
+		font-size: 16px;
+		width: 20px;
+		height: 28px;
+	}
+
+	table.globalResult tbody tr .articleButtons div.counter input.plusButton[type="button"] {
+		left: 62px;
+	}
+
+	table.globalResult tbody tr .articleButtons div.buyButton .buyImageWrapper,
+	table.globalResult tbody tr td.resultOrder > .addToBasketLink,
+	table.globalResult tbody tr td.resultOrder > .showGroupedRowsLinks,
+	table.globalCase tbody td.order .addToBasketLink,
+	table.globalResult tbody td.order .addToBasketLink,
+	.wGoodsGroup .goodsBody ul.item_ul li.item .order .addToBasketLink{
+		font-size: 16px;
+		height: 28px;
+		text-align: center !important;
+		width: 45px;
+	}
+
+	table.globalResult tbody tr .articleButtons .ms-choice {
+		height: 100% !important;
+	}
+
+	table.globalResult tbody tr .articleButtons div.buyButton .buyImageWrapper span,
+	table.globalResult tbody tr td.resultOrder > .addToBasketLink span,
+	table.globalResult tbody tr td.resultOrder > .showGroupedRowsLinks span,
+	table.globalCase tbody td.order .addToBasketLink > span,
+	table.globalResult tbody td.order .addToBasketLink > span,
+	.wGoodsGroup .goodsBody ul.item_ul li.item .order .addToBasketLink> span {
+		font-size: 18px;
+	}
+
+	table.globalResult tbody tr td.resultOrder > .addToBasketLink span,
+	table.globalResult tbody tr td.resultOrder > .showGroupedRowsLinks span{
+		padding: 5px 0 0;
+		margin-left: -1px;
+	}
+
+	table.globalResult tbody tr .articleButtons div.buyButton .buyImageWrapper .ajaxOk,
+	table.globalResult tbody tr .articleButtons div.buyButton .buyImageWrapper .ajaxfail{
+		height: 28px;
+		width: 45px;
+	}
+
+	table.globalResult tbody tr .articleButtons div.buyButton .buyImageWrapper .ajaxOk span,
+	table.globalResult tbody tr .articleButtons div.buyButton .buyImageWrapper .ajaxfail span{
+		font-size: 17px;
+		height: 100%;
+		line-height: 1;
+		margin-top: 5px;
+	}
+
+	table.globalResult tbody tr .articleButtons div.counter{
+		margin-top: 0;
+	}
+
+	table.globalResult tbody tr td a.brandInfoLink,
+	table.globalResult tbody tr td a.open-abcp-modal-info,
+	table.globalResult tbody tr td.resultPartCode,
+	table.globalResult tbody tr td.resultBrandNumber{
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	table.globalResult tbody tr td.resultPartCode,
+	table.globalResult tbody tr td.resultBrandNumber{
+		-webkit-box-flex: 1;
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+	}
+
+	table.globalResult tbody tr td.resultPrice{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		line-height: 22px;
+		padding: 5px;
+		font-size: 20px;
+		font-weight: bold;
+		position: absolute;
+		left: 0;
+		bottom: 5px;
+		z-index: 1;
+	}
+
+	table.globalResult tbody tr td.resultPrice div[style="text-decoration: line-through;"] {
+		order: 1;
+		flex-basis: 100%;
+		font-size: 13px;
+		line-height: 10px;
+		margin-bottom: -6px;
+		opacity: 0.7;
+	}
+
+	table.globalResult tbody tr td.resultPrice.resultDistPrice{
+		height: 30px;
+		padding-top: 4px;
+		line-height: 18px;
+	}
+
+	table.globalResult tbody tr td.resultDistPrice span{
+		font-size: 14px;
+	}
+
+	table.globalResult tbody td.resultOrderCont{
+		background: #ececec none repeat scroll 0 0 !important;
+		display: block;
+		float: none;
+		height: 28px;
+		padding: 7px 5px;
+	}
+
+	table.globalResult tbody tr td.resultOrder{
+		z-index: 1;
+		position: absolute;
+		right: 0;
+		bottom: 2px;
+	}
+
+	table.globalResult.globalResultDesc tbody tr td.resultOrder{
+		bottom: 27px;
+	}
+
+	table.globalResult.globalResultDesc tbody tr td.resultPrice{
+		bottom: 30px;
+	}
+
+	table.globalResult tbody tr td.resultOrder a,
+	table.globalResult tbody tr td.resultOrder div.articleButtons{
+		display: block;
+		float: right;
+		width: auto;
+	}
+
+	table.globalResult tbody tr td.resultOrder span{
+		display: inline-block;
+		padding-top: 0;
+		height: 22px !important;
+		line-height: 22px;
+		vertical-align: middle;
+	}
+
+	table.globalResult tbody tr td.resultOrder span.hidden{
+		display: none;
+	}
+
+	table.globalResult tbody tr td.resultDescription{
+		border-top: none !important;
+		padding-top: 0;
+		text-align: left !important;
+		/*background: transparent !important;*/
+	}
+
+	table.globalResult tbody tr td.resultTitleMain,
+	table.globalResult tbody tr td.resultTitle{
+		text-align: center !important;
+		font-size: 14px;
+		padding: 7px;
+		margin-top: 25px;
+		margin-bottom: -15px;
+	}
+
+	table.globalResult tbody tr td.resultTitleMain{
+		border: 1px solid #e7d8d3 !important;
+	}
+
+	table.globalResult tbody tr td.resultTitle{
+		border: 1px solid #d5dde0 !important;
+	}
+
+	table.globalResult tbody tr td.resultPartCode{
+		padding-right: 15px !important;
+	}
+
+	table.globalResult tbody tr td.analogOptions{
+		display: none;
+	}
+
+	table.globalResult tbody tr td .searchInfoLink{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	table.globalResult tbody tr td .searchInfoLink div.comprisesIcon,
+	table.globalResult tbody tr td .searchInfoLink div.isAPartIcon,
+	table.globalResult tbody tr td .searchInfoLink div.isABothIcon{
+		margin-top: 0;
+	}
+
+	table.globalResult tbody tr td.resultDescLink{
+		text-align: center !important;
+	}
+
+	table.globalResult tbody tr td.resultDescLink a{
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	table.globalResult tbody tr td:last-child {
+		border-bottom: 0;
+	}
+
+	table.globalResult tbody tr td:before {
+		content: attr(data-label);
+		float: left;
+		font-weight: bold;
+		text-align: left !important;
+	}
+
+	table.globalResult tbody td.resultHidden ~ .showFullDescTd{
+		display: block !important;
+		text-align: center !important;
+		cursor: pointer;
+	}
+
+	table.globalResult tbody td.showFullDescTd span{
+		border-bottom: 1px dashed #0263b0;
+		color: #0263b0;
+	}
+
+	table.globalResult tbody td.showFullDescTd .hideFullDesc{
+		display: none;
+	}
+
+	table.globalResult tbody tr.fullResultTr td.showFullDescTd .showFullDesc{
+		display: none;
+	}
+
+	table.globalResult tbody tr.fullResultTr td.showFullDescTd .hideFullDesc{
+		display: inline;
+	}
+
+	table.globalResult tbody tr td#showMoreAnalogs {
+		text-align: center !important;
+		padding: 5px 0;
+	}
+
+	table.globalResult tbody tr td#showMoreAnalogs span{
+		font-weight: bold;
+		padding: 5px 55px;
+		font-size: 14px;
+		line-height: 1.3;
+	}
+
+	div.mobilePriceFor {
+		display: flex;
+		align-items: center;
+		font-size: 12px;
+		margin-bottom: 5px;
+	}
+
+	div.mobilePriceFor form{
+		display: inline-block;
+	}
+
+	div.mobilePriceFor form select {
+		margin-right: 5px;
+		margin-left: 5px;
+		border: 2px solid #e8e8e8;
+		border-radius: 4px;
+		height: 30px;
+		font-size: 12px;
+	}
+
+	div.mobilePriceFor a {
+		height: 26px;
+		border: 2px solid #e8e8e8;
+		border-radius: 4px;
+		flex-grow: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-decoration: none;
+	}
+
+	div.mobilePriceFor a i {
+		margin-left: 4px;
+	}
+
+	table.globalResult tbody tr.resultTr2GroupFirst td.resultInfo,
+	table.globalResult tbody tr.resultTr2GroupFirst td.resultImage,
+	table.globalResult tbody tr.resultTr2GroupFirst td.resultBrand,
+	table.globalResult tbody tr.resultTr2GroupFirst td.resultBrandNumber,
+	table.globalResult tbody tr.resultTr2GroupFirst td.resultDescription,
+	table.globalResult tbody tr.resultTr2GroupFirst td.resultPartCode,
+	table.globalResult tbody tr.resultTr2GroupFirstFilter td.resultInfo,
+	table.globalResult tbody tr.resultTr2GroupFirstFilter td.resultImage,
+	table.globalResult tbody tr.resultTr2GroupFirstFilter td.resultBrand,
+	table.globalResult tbody tr.resultTr2GroupFirstFilter td.resultBrandNumber,
+	table.globalResult tbody tr.resultTr2GroupFirstFilter td.resultPartCode,
+	table.globalResult tbody tr.resultTr2GroupFirstFilter td.resultDescription {
+		vertical-align: middle !important;
+		display: inline-block !important;
+		width: auto;
+	}
+
+	table.globalResult tbody tr.resultTr2GroupFirst td.resultInfo,
+	table.globalResult tbody tr.resultTr2GroupFirst td.resultImage,
+	table.globalResult tbody tr.resultTr2GroupFirst td.resultBrand,
+	table.globalResult tbody tr.resultTr2GroupFirst td.resultPartCode,
+	table.globalResult tbody tr.resultTr2GroupFirst td.resultBrandNumber {
+		display: -webkit-flex !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+	}
+
+	table.globalResult tbody tr.resultTr2GroupFirst td.resultDescription,
+	table.globalResult tbody tr.resultTr2GroupFirst td.resultDescription {
+		display: block !important;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.promotionOfferModalBody .promotionOfferTopBar .promotionOfferNavButton,
+	.promotionOfferModalBody .promotionOfferTopBar .promotionOfferNavButton {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	table.globalResult tbody tr.resultTr2,
+	table.globalResult tbody tr.resultTr2Route{
+		width: 100%;
+		margin: 25px 0 0 0;
+	}
+
+	table.globalResult tbody tr.resultTr2Group,
+	table.globalResult tbody tr.resultTr2GroupFirst{
+		margin-right: 0;
+	}
+
+	table.globalResult tbody tr td#showMoreAnalogs span{
+		padding: 4px 0;
+		font-size: 15px;
+		display: block;
+	}
+
+	.wSearchResultFilter .wSearchResultFilterInner {
+		overflow-x: auto;
+	}
+}
+
+/* WBM Modal */
+@media (max-width: 767px) {
+	.promotionOfferModalBody .promotionOfferImage {
+		text-align: center;
+	}
+
+	.promotionOfferModalBody .promotionForm {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-flow: column wrap;
+		flex-flow: column wrap;
+	}
+
+	.promotionOfferModalBody .promotionFormTextInputs,
+	.promotionOfferModalBody .promotionFormBlock {
+		width: 100%;
+	}
+
+	.promotionOfferModalBody .promotionFormTextInputs {
+		padding: 0;
+		margin: 0 -5px;
+	}
+
+	.promotionFormTextInputs .promotionFormBlock {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+
+	.promotionOfferTopBar .promotionOfferLeftColumn {
+		width: auto;
+		max-width: 200px;
+	}
+
+	.promotionOfferDescr .promotionOfferLeftColumn,
+	.promotionOfferDescr .promotionOfferRightColumn {
+		width: 100%;
+	}
+
+	.promotionOfferModalBody .promotionOfferColumns.promotionOfferDescr {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-flow: column wrap;
+		flex-flow: column wrap;
+	}
+
+	.promotionOfferModalBody .promotionOfferPropertiesList {
+		margin-top: 20px;
+	}
+
+	.promotionOfferModalBody .rejectOfferForm .promotionFormBlock.promotionFormBlockTextarea {
+		width: 100%;
+	}
+
+	.promotionOfferModalBody .rejectOfferForm .promotionFormBlock {
+		width: auto;
+	}
+
+	.promotionOfferAboutMe {
+		font-size: 14px;
+	}
+
+	.promotionFormControl_warning {
+		margin: 5px 0;
+	}
+
+	.promotionFormControl_button {
+		margin-top: 10px;
+	}
+
+	.promotionOfferDescriptionTabs {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 560px) {
+	.promotionOfferTopBar .promotionOfferLeftColumn {
+		max-width: 100%;
+	}
+
+	.promotionOfferTopBar .promotionOfferRightColumn {
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.promotionOfferTopBar .promotionOfferRightColumn{
+		display: none;
+	}
+
+	.promotionOfferModalBody .promotionFormControl_button{
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.promotionOfferModalBody .rejectOfferForm {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-flow: column wrap;
+		flex-flow: column wrap;
+	}
+
+	.promotionOfferModalBody .rejectOfferForm .promotionFormBlock.promotionFormBlockTextarea + .promotionFormBlock{
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.promotionOfferModalBody .promotionFormBlock,
+	.promotionOfferModalBody .promotionFormTextInputs .promotionFormBlock {
+		width: 100%;
+		padding: 0;
+	}
+
+	.promotionOfferModalBody .promotionFormTextInputs {
+		margin: 0;
+	}
+
+	.promotionOfferModalBody .promotionOfferGoodData {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		margin-right: 0;
+	}
+
+	.promotionOfferModalBody .promotionOfferGoodData .promotionOfferPreview {
+		max-width: 200px;
+		max-height: 200px;
+	}
+
+	.promotionFormBlock.promotionFormBlockSubmit {
+		margin-top: 10px;
+	}
+
+	.promotionOfferModalBody .rejectOfferRadios {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-flow: column wrap;
+		flex-flow: column wrap;
+	}
+
+	.promotionOfferModalBody .rejectOfferNumber,
+	.promotionOfferModalBody .rejectOfferBrand {
+		width: 100%;
+		padding: 0 0 15px;
+	}
+
+	a.promotionOfferDescriptionTab {
+		font-size: 11px;
+	}
+
+	div.mobilePriceFor {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	div.mobilePriceFor form select {
+		margin: 5px 0;
+		width: 100%;
+	}
+}
+
+/* end WBM */
+/* filters */
+@media (max-width: 900px) {
+	.filterBlockByBrandsBtn {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.wrapperFilterBlockByBrands {
+		white-space: normal;
+		padding-right: 0;
+	}
+}
+
+@media (max-width: 480px) {
+	.filterBlockByBrandsToggler .fr-collapse-toggle .showSearchFiltersButton_show {
+		display: block;
+	}
+
+	.filterBlockByBrandsToggler .fr-collapse-toggle.fr-collapsed .showSearchFiltersButton_show {
+		display: none;
+	}
+
+	.filterBlockByBrandsToggler .fr-collapse-toggle .showSearchFiltersButton_hide {
+		display: none;
+	}
+
+	.filterBlockByBrandsToggler .fr-collapse-toggle.fr-collapsed .showSearchFiltersButton_hide {
+		display: block;
+	}
+
+	.wSearchResultFilter .wSearchResultFilterInner {
+		flex-wrap: wrap;
+	}
+
+	.wSearchResultFilter .wSearchResultFilterInner .wSearchResultFilterItem {
+		flex-grow: 1;
+	}
+	.wSearchResultFilter .wSearchResultFilterInner .wSearchResultFilterItem + .wSearchResultFilterItem {
+		margin-top: -1px;
+	}
+
+	.wSearchResultFilter.wSearchResultFilterDeadline .wSearchResultFilterInner .wSearchResultFilterItem:first-child,
+	.wSearchResultFilter.wSearchResultFilterDeadline .wSearchResultFilterInner .wSearchResultFilterItem:first-child .wSearchResultFilterButtonRadio:checked:not(:disabled) + .wSearchResultFilterButtonLabel,
+	.wSearchResultFilter.wSearchResultFilterDeadline .wSearchResultFilterInner .wSearchResultFilterItem:first-child .wSearchResultFilterButtonRadio:checked:not(:disabled) + .wSearchResultFilterInputLabelBlock {
+		border-radius: 4px 0 0 0;
+	}
+
+	.wSearchResultFilter.wSearchResultFilterDeadline .wSearchResultFilterInner .wSearchResultFilterItem:nth-child(3) {
+		border-radius: 0 4px 0 0;
+		border-right: 2px solid #e8e8e8;
+	}
+	.wSearchResultFilter.wSearchResultFilterDeadline .wSearchResultFilterInner .wSearchResultFilterItem:nth-child(3) .wSearchResultFilterButtonRadio:checked:not(:disabled) + .wSearchResultFilterButtonLabel,
+	.wSearchResultFilter.wSearchResultFilterDeadline .wSearchResultFilterInner .wSearchResultFilterItem:nth-child(3) .wSearchResultFilterButtonRadio:checked:not(:disabled) + .wSearchResultFilterInputLabelBlock {
+		border-radius: 0 4px 0 0;
+	}
+
+	.wSearchResultFilter.wSearchResultFilterDeadline .wSearchResultFilterInner .wSearchResultFilterItem:nth-child(4),
+	.wSearchResultFilter.wSearchResultFilterDeadline .wSearchResultFilterInner .wSearchResultFilterItem:nth-child(4) .wSearchResultFilterButtonRadio:checked:not(:disabled) + .wSearchResultFilterButtonLabel,
+	.wSearchResultFilter.wSearchResultFilterDeadline .wSearchResultFilterInner .wSearchResultFilterItem:nth-child(4) .wSearchResultFilterButtonRadio:checked:not(:disabled) + .wSearchResultFilterInputLabelBlock {
+		border-radius: 0 0 0 4px;
+	}
+
+	.wSearchResultFilter.wSearchResultFilterDeadline .wSearchResultFilterInner .wSearchResultFilterItem:last-child,
+	.wSearchResultFilter.wSearchResultFilterDeadline .wSearchResultFilterInner .wSearchResultFilterItem:last-child .wSearchResultFilterButtonRadio:checked:not(:disabled) + .wSearchResultFilterButtonLabel,
+	.wSearchResultFilter.wSearchResultFilterDeadline .wSearchResultFilterInner .wSearchResultFilterItem:last-child .wSearchResultFilterButtonRadio:checked:not(:disabled) + .wSearchResultFilterInputLabelBlock {
+		border-radius: 0 0 4px 0;
+	}
+	.wSearchResultFilter.wSearchResultFilterDeadline .wSearchResultFilterInner .wSearchResultFilterItem:nth-child(4):last-child,
+	.wSearchResultFilter.wSearchResultFilterDeadline .wSearchResultFilterInner .wSearchResultFilterItem:nth-child(4):last-child .wSearchResultFilterButtonRadio:checked:not(:disabled) + .wSearchResultFilterButtonLabel,
+	.wSearchResultFilter.wSearchResultFilterDeadline .wSearchResultFilterInner .wSearchResultFilterItem:nth-child(4):last-child .wSearchResultFilterButtonRadio:checked:not(:disabled) + .wSearchResultFilterInputLabelBlock {
+		border-radius: 0 0 4px 4px;
+	}
+
+	.wSearchResultFilter.wSearchResultFilterAvailability .wSearchResultFilterInner .wSearchResultFilterItem:first-child,
+	.wSearchResultFilter.wSearchResultFilterAvailability .wSearchResultFilterInner .wSearchResultFilterItem:first-child .wSearchResultFilterButtonRadio:checked:not(:disabled) + .wSearchResultFilterButtonLabel,
+	.wSearchResultFilter.wSearchResultFilterAvailability .wSearchResultFilterInner .wSearchResultFilterItem:first-child .wSearchResultFilterButtonRadio:checked:not(:disabled) + .wSearchResultFilterInputLabelBlock {
+		border-radius: 4px 0 0 4px;
+	}
+
+	.wSearchResultFilter .wSearchResultFilterInner .wSearchResultFilterItem:last-child,
+	.wSearchResultFilter .wSearchResultFilterInner .wSearchResultFilterItem:last-child .wSearchResultFilterButtonRadio:checked:not(:disabled) + .wSearchResultFilterButtonLabel,
+	.wSearchResultFilter .wSearchResultFilterInner .wSearchResultFilterItem:last-child .wSearchResultFilterButtonRadio:checked:not(:disabled) + .wSearchResultFilterInputLabelBlock {
+		border-radius: 0 4px 4px 0;
+	}
+
+	div.filterBlockByBrandsBtn {
+		display: block;
+	}
+
+	div.wrapperFilterBlockByBrands {
+		width: 100%;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		flex-wrap: wrap;
+		margin-left: 0;
+		padding-right: 0;
+	}
+	div.wrapperFilterBlockByBrands > div {
+		-webkit-box-flex: 1;
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+		margin-left: 0;
+		min-width: 100%;
+	}
+	div.wSearchResultFilterDeadline .wSearchResultFilterButton:nth-child(1),
+	div.wSearchResultFilterDeadline .wSearchResultFilterButton:nth-child(2),
+	div.wSearchResultFilterDeadline .wSearchResultFilterButton:nth-child(3) {
+		width: 33%;
+	}
+	div.wrapperFilterBlockByBrands .filter-btn {
+		flex-grow: 1;
+	}
+	div.wrapperFilterBlockByBrands .filter-btn a {
+		display: block;
+		text-align: center;
+		border-radius: 0;
+	}
+	div.wrapperFilterBlockByBrands .filter-btn.active {
+		position: relative;
+		z-index: 2;
+	}
+	.filterBlockByBrandsToggler {
+		display: block !important;
+		margin-bottom: 10px;
+	}
+	#searchFiltersCollapsedBlock {
+		display: none;
+	}
+	#searchFiltersCollapsedBlock.fr-collapsing,
+	#searchFiltersCollapsedBlock.fr-collapse.in {
+		display: block;
+	}
+
+	table.globalResult tbody tr td.resultPrice{
+		font-size: 15px;
+		line-height: 25px;
+		bottom: 3px;
+		height: 25px;
+	}
+
+	table.globalResult tbody tr td.resultPrice div[style="text-decoration: line-through;"] {
+		margin-top: -7px;
+	}
+
+	div.tip-goodsQuantity{
+		width: 220px !important;
+	}
+
+	table.globalCase{
+		border: none;
+	}
+
+	table.globalCase thead tr{
+		display: none;
+	}
+
+	table.globalCase tbody tr{
+		display: block;
+		height: auto;
+		border: 1px solid #e8e8e8;
+		margin-bottom: 15px;
+	}
+
+	table.globalCase tbody tr:hover{
+		background: none;
+	}
+
+	table.globalCase tbody td{
+		font-size: 13px;
+		border: none;
+		padding: 2px 7px;
+	}
+
+	table.globalCase tbody td a{
+		font-size: 13px;
+	}
+
+	table.globalCase td.caseUrl{
+		display: none;
+	}
+
+	table.globalCase td.caseInfo,
+	table.globalCase td.caseImage,
+	table.globalCase td.caseBrand,
+	table.globalCase td.casePartCode {
+		display: inline-block;
+		font-size: 15px;
+		padding-right: 0;
+	}
+
+	table.globalCase td.caseBrand,
+	table.globalCase td.casePartCode{
+		font-weight: bold;
+	}
+
+	table.globalCase td.caseDescription,
+	table.globalCase td.casePrices{
+		display: block;
+		width: auto;
+	}
+
+	table.globalCase td.casePrices{
+		padding: 10px 7px 5px;
+		text-align: center;
+	}
+
+	table.globalCase td.casePrices a.startSearching{
+		background: #ececec;
+		display: inline-block;
+		font-size: 13px;
+		font-weight: bold;
+		padding: 5px 0;
+		text-decoration: none;
+		width: 100%;
+		text-align: center;
+		border-radius: 3px;
+		color: #454545;
+	}
+
+	table.globalCase td.casePrices a.startSearching:hover{
+		background: #dbdbdb;
+	}
+}
+
+@media (min-width: 481px) {
+	#searchFiltersCollapsedBlock.fr-collapse {
+		display: block;
+		height: auto !important;
+	}
+}
+/**
+ * Результаты поиска, 2 этап при опции:
+ * "Поиск: ограничивать количество сгруппированых результатов по бренду и номеру
+ * при отображении второго этапа поиска"
+ */
+@media screen and (max-width: 991px) {
+	table.globalResult tbody tr.resultTr2Group.rowShowMore {
+		padding-bottom: 40px;
+	}
+	table.globalResult tbody tr.resultTr2Group.rowShowMore .cellShowMore {
+		border: none;
+		bottom: 0;
+		box-sizing: border-box;
+		display: block;
+		height: 40px;
+		left: 0;
+		padding: 5px;
+		position: absolute;
+		right: 0;
+	}
+	table.globalResult tbody tr.resultTr2Group.rowShowMore .cellShowMore a {
+		display: none;
+	}
+
+	table.globalResult tbody tr.resultTr2Group.rowShowMore .cellShowMore .fr-btn-info {
+		font-weight: bold;
+		display: block !important;
+	}
+	table.globalResult tbody tr.rowShowMore td.resultPrice {
+		bottom: 43px;
+	}
+	table.globalResult tbody tr.rowShowMore td.resultOrder {
+		bottom: 42px;
+	}
+}
